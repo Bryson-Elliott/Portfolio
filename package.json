@@ -5,7 +5,7 @@
   },
   "name": "deployment",
   "version": "1.0.0",
-  "main": "server/main.js",
+  "main": "server/index.js",
   "devDependencies": {},
   "scripts": {
     "start": "node server/main.js",
