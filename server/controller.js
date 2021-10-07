@@ -1,7 +1,7 @@
-const about = require('about.md')
-const skills = require('skills.md')
-const projects = require('project.md')
-const contact = require('contact.md')
+const about = require('')
+const skills = require('')
+const projects = require('')
+const contact = require('')
 
 module.exports = {
     getAbout: (req, res) => {

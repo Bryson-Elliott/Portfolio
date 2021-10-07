@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/about', ctrl.getAbout)
-app.get('/api/skills', ctrl.getSkills)
-app.get('/api/projects', ctrl.getProjects)
+app.get('/api/skill', ctrl.getSkills)
+app.get('/api/project', ctrl.getProjects)
 app.get('/api/contact', ctrl.getContact)
 
 
@@ -22,3 +22,15 @@ const port = process.env.PORT || 4000
 app.listen(port, () => {
     console.log(`Listening on port: ${port}`)
 })
+
+
+function myFunction() {
+    var x = document.getElementByClassName("aboutme");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+myFunction("click", (req))

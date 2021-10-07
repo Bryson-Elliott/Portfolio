@@ -4,6 +4,11 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+
+}
+
 #H1 {
     background-image: linear-gradient(225deg, black, rgb(185, 182, 182));
     font-weight: bold;
@@ -14,28 +19,81 @@
 
 }
 
-.about {
+#H2 {
+    font-weight: bold;
+    color: white;
+    margin: 1vw;
+    margin-left: 22vw;
+    width: 300px;
+
+}
+
+#aboutme {
     color: whitesmoke;
     top: 28vh;
     margin-left: 2vw;
 
 }
 
-.skills {
+#about {
+    font-size: 18px;
+    margin-left: 40vw;
+    color: white;
+    width: 300px;
+    margin-top: 20vw;
+
+}
+
+#skills {
     color: whitesmoke;
     top: 33vh;
     margin-left: 2vw;
 
 }
 
-.projects {
+#skill {
+    font-size: 18px;
+    margin-left: 50vw;
+    color: white;
+    width: 250px;
+    margin-top: 30vw;
+
+}
+
+#python {
+    color: white;
+    margin-left: 50vw;
+    margin-top: 40vw;
+
+}
+
+#nodeJS {
+    color: white;
+    margin-left: 50vw;
+    margin-top: 40vw;
+
+}
+#hub {
+    color: white;
+    margin-left: 50vw;
+    margin-top: 40vw;
+
+}
+
+#git {
+    color: white;
+    margin-left: 50vw;
+    margin-top: 40vw;
+
+}
+#projects {
     color: whitesmoke;
     top: 38vh;
     margin-left: 2vw;
 
 }
 
-.contact {
+#contact {
     color: whitesmoke;
     top: 84vh;
     width: 80px;
@@ -57,4 +115,8 @@
     margin-left: 50.5vw;
     /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png); */
 
+}
+
+.hidden {
+    visibility: hidden;
 }
