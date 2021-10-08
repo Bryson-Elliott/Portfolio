@@ -24,13 +24,26 @@ app.listen(port, () => {
 })
 
 
-function myFunction() {
-    var x = document.getElementByClassName("aboutme");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+// function myFunction() {
+//     var x = document.getElementByClassName("aboutme");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
 
-myFunction("click", (req))
+// myFunction("click", (req))
+
+// function toggle(ele) {
+//     var about = document.getElementById('about');
+//     if (about.style.display == 'block') {
+//         about.style.display = 'none';
+
+//         document.getElementById(ele.id).value = 'Show DIV';
+//     }
+//     else {
+//         about.style.display = 'block';
+//         document.getElementById(ele.id).value = 'Hide DIV';
+//     }
+// }
