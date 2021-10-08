@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(68, 67, 67); 
+    background-color: rgb(153, 152, 152); 
     position: absolute;
 
 }
@@ -23,7 +23,7 @@ html {
     font-weight: bold;
     color: white;
     margin: 1vw;
-    margin-left: 22vw;
+    margin-left: 12vw;
     width: 300px;
 
 }
@@ -135,6 +135,10 @@ html {
     top: 41vh;
     margin-left: 1vw;
     width: 10vw;
+}
+
+*button {
+    color: black;
 }
 
 .hidden {

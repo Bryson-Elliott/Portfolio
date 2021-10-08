@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css"/>
     <title>Bryson's Dev Stack</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("p").toggle();
+          });
+        });
+    </script>
+    <button id="hide">Find out about me!</button>
+
 </head>
 <body>
 
@@ -15,17 +26,8 @@
         <h2 id="H2">Pardon the dust as we are currently remodeling</h2>
         
     <div>
-        <script>
-            $(document).ready(function(){
-              $("#hide").click(function(){
-                $("p").toggleClass("hidden");
-              });
-            });
-        </script>
-        <button id="hide">Find out about me!</button>
-
         <a class="" id="aboutme" onclick="myFunction()" style="cursor: pointer;">About</a>
-            <p class="hidden" id="about" >Hi my name is Bryson, I am a Python Engineer.
+            <p class="" id="about" >Hi my name is Bryson, I am a Python Engineer.
                 I was born in Utah and I currently live in Utah.
                 I served an LDS mission in Tampa Florida for 2 years. 
                 I love to watch and play basketball, Go Jazz! 
@@ -50,24 +52,24 @@
         <p class ="hidden" id=skill>I have a few skills that I think are valuable.
             I am good at customer service and keeping a level head.
             I am good at keeping the workplace happy and upbeat.
-            As far as coding goes I am good at the following:
-        <li class="hidden" id="python">Python</li>
+            As far as coding goes I am good at the following: Python, NodeJS, Github, Git
+        <!-- <li class="hidden" id="python">Python</li>
         <li class="hidden" id="nodeJS">NodeJS</li>
         <li class="hidden" id="hub">Github</li>
-        <li class="hidden" id="git">Git</li>
+        <li class="hidden" id="git">Git</li> -->
         </p>
     </div>
 
     <br>
     
     <div>
-        <script>
+        <!-- <script>
             $(document).ready(function(){
               $("#hide3").click(function(){
                 $("p").toggleClass("hidden");
               });
             });
-        </script>
+        </script> -->
         <button id="hide3">Currently Unavailable</button>
         <a class="" id="projects" onclick="" style="cursor: pointer;">Projects</a>
         <p class="hidden" id="project"></p>
