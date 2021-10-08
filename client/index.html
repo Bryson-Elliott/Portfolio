@@ -13,10 +13,19 @@
         <h1 id="H1">Bryson the Python Engineer</h1>
     </a>
         <h2 id="H2">Pardon the dust as we are currently remodeling</h2>
-
+        
     <div>
+        <script>
+            $(document).ready(function(){
+              $("#hide").click(function(){
+                $("p").toggleClass("hidden");
+              });
+            });
+        </script>
+        <button id="hide">Find out about me!</button>
+
         <a class="" id="aboutme" onclick="myFunction()" style="cursor: pointer;">About</a>
-            <p class="hidden" id="about">Hi my name is Bryson, I am a Python Engineer.
+            <p class="hidden" id="about" >Hi my name is Bryson, I am a Python Engineer.
                 I was born in Utah and I currently live in Utah.
                 I served an LDS mission in Tampa Florida for 2 years. 
                 I love to watch and play basketball, Go Jazz! 
@@ -25,9 +34,18 @@
             </p>
     </div>
 
+
     <br>
 
     <div>
+        <script>
+            $(document).ready(function(){
+              $("#hide2").click(function(){
+                $("p").toggleClass("hidden");
+              });
+            });
+        </script>
+        <button id="hide2">What are my skills?</button>
         <a class="" id="skills" onclick="myFunction()" style="cursor: pointer;">Skills</a>
         <p class ="hidden" id=skill>I have a few skills that I think are valuable.
             I am good at customer service and keeping a level head.
@@ -37,15 +55,20 @@
         <li class="hidden" id="nodeJS">NodeJS</li>
         <li class="hidden" id="hub">Github</li>
         <li class="hidden" id="git">Git</li>
-
-
-
         </p>
     </div>
 
     <br>
     
     <div>
+        <script>
+            $(document).ready(function(){
+              $("#hide3").click(function(){
+                $("p").toggleClass("hidden");
+              });
+            });
+        </script>
+        <button id="hide3">Currently Unavailable</button>
         <a class="" id="projects" onclick="" style="cursor: pointer;">Projects</a>
         <p class="hidden" id="project"></p>
     </div>

@@ -31,7 +31,7 @@ html {
 #aboutme {
     color: whitesmoke;
     top: 28vh;
-    margin-left: 2vw;
+    margin-left: 4.5vw;
 
 }
 
@@ -47,7 +47,7 @@ html {
 #skills {
     color: whitesmoke;
     top: 33vh;
-    margin-left: 2vw;
+    margin-left: 4.5vw;
 
 }
 
@@ -88,7 +88,7 @@ html {
 #projects {
     color: whitesmoke;
     top: 38vh;
-    margin-left: 2vw;
+    margin-left: 4.5vw;
 
 }
 
@@ -114,6 +114,27 @@ html {
     margin-left: 50.5vw;
     /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png); */
 
+}
+
+#hide {
+    color: whitesmoke;
+    top: 31vh;
+    margin-left: 1vw;
+    width: 10vw;
+}
+
+#hide2 {
+    color: whitesmoke;
+    top: 36vh;
+    margin-left: 1vw;
+    width: 10vw;
+}
+
+#hide3 {
+    color: whitesmoke;
+    top: 41vh;
+    margin-left: 1vw;
+    width: 10vw;
 }
 
 .hidden {
